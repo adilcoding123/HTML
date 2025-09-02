@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>advance selectors in htmk</title>
+        <style>
+            body{
+                background-color: aqua;
+                color: blue;
+            }
+            h1{
+                color: brown;
+            }
+            a:hover{
+                color: yellow;
+            }
+            ul li::before{    
+            content: "😍😍😍"   
+            }
+            a::after{
+                content: "😁😁😁"
+            }
+            p::first-letter{
+                font-size:200% ;
+                color: rgb(10, 241, 41);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>welcome to the space explores club</h1>
+        <ul>
+            <li>
+                moon mission
+            </li>
+            <Li>
+                mars rovers
+            </Li>
+            
+        </ul>
+        <p>
+            Space exploration has always
+
+captivated human imagination.
+
+It's a journey to the unknown!
+        </p>
+        <P>
+            From the Moon to distant galaxies,
+
+we continue to explore the
+
+vastness of space
+        </P>
+        <a href="#">join our mission</a><br>
+
+         <a href="#">latest space news</a><br>
+         <a href="#">gallery of the universe</a><br>
+        
+    </body>
+</html>
