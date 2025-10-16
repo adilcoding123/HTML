@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>orguments in js</title>
+    </head>
+    <body>
+        <h1>orguments</h1>
+        <p id="result"></p>
+        <script>
+            function findmax(){
+                var i;
+                var max=0;
+            for(i=0; i < arguments.length; i++){
+                if(arguments[i]> max){
+                    max=arguments[i];
+                }
+            }
+            return max;
+            }
+            document.getElementById("result").innerHTML=findmax(787195633, 612487976, 123456789);
+        </script>
+    </body>
+</html>
