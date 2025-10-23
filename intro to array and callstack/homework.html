@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            methods in array
+        </title>
+    </head>
+    <body>
+        <h1>join and pop</h1>
+        <p id="myjoin"></p>
+        <p id="myfirstpop"></p>
+        <p id="mysecondpop"></p>
+        <p id="mythirdpop"></p>
+        <script>
+            var friends=["ayush","samarth","vikas","ansar","yesh","aditya"];
+            document.getElementById('myjoin').innerHTML=friends.join("#");
+            document.getElementById('myfirstpop').innerHTML=friends;
+            friends.pop();
+            document.getElementById('mysecondpop').innerHTML=friends
+            document.getElementById('mythirdpop').innerHTML=friends
+        </script>
+    </body>
+</html>
